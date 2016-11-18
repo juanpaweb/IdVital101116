@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andresrugeforero.idvital101116.usuario"
+    android:background="@android:color/white">
+
+
+    <Button
+        android:text="Planes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/planes"
+        android:layout_marginTop="200dp"
+        android:textAppearance="@android:style/TextAppearance.Widget"
+        android:textAllCaps="false"
+        android:background="@android:color/white"
+        android:contentDescription="Descripcion"
+        android:layout_alignParentTop="true"
+        android:drawableRight="@drawable/botonsiguiente"
+        android:drawableLeft="@drawable/iconosusuario"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="ID Ideal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:textColorLink="@android:color/holo_green_light"
+        tools:textColorHint="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:background="@color/VerdeAdulto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/perfile01"
+        android:id="@+id/imageView6"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:scrollbarDefaultDelayBeforeFade="450" />
+
+    <Button
+        android:text="Tipo Perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipoPerfil"
+        android:textAppearance="@android:style/TextAppearance.Widget"
+        android:drawableRight="@drawable/botonsiguiente"
+        android:drawableLeft="@drawable/iconorealperfiles"
+        android:textAllCaps="false"
+        android:background="@android:color/white"
+        android:layout_below="@+id/planes"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="descipcion" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagenfondoxarge">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:src="@drawable/soporte"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="128dp"
+            android:id="@+id/imageButton"
+            android:layout_row="2"
+            android:layout_column="7"
+            android:src="@drawable/transparencia_central"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:id="@+id/imageButton6"
+            android:layout_row="3"
+            android:layout_column="6"
+            android:src="@drawable/vital"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="83dp"
+            android:id="@+id/imageButton7"
+            android:layout_row="3"
+            android:layout_column="8"
+            android:src="@drawable/carro"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:id="@+id/qcode"
+            android:layout_row="3"
+            android:layout_column="7"
+            android:src="@drawable/icocamara"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_horizontal"
+            android:layout_rowSpan="2" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/nosotros"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:src="@drawable/nosotros"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="83dp"
+            android:id="@+id/usuario"
+            android:layout_row="1"
+            android:layout_column="8"
+            android:src="@drawable/planes"
+            android:background="@android:color/transparent" />
+
+    </GridLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</LinearLayout>

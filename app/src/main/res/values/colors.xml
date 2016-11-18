@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eff0f0</color>
+    <color name="colorPrimaryDark">#eff0f0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="VerdeAdulto">#abe600</color>
+    <color name="VerdeDeportista">#38e438</color>
+    <color name="AzulEmpresarial">#00dddd</color>
+    <color name="MoradoTerceraEdad">#7a009b</color>
+    <color name="AmarilloNinos">#ff9c00</color>
+    <color name="AmarilloMascotas">#ffe600</color>
+</resources>

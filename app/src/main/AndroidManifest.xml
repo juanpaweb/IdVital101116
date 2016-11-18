@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.andresrugeforero.idvital101116">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".nosotros" />
+        <activity android:name=".qcode" />
+        <activity android:name=".usuario" />
+        <activity android:name=".planes" />
+        <activity android:name=".perfiles" />
+        <activity android:name=".planIdVital" />
+        <activity android:name=".PlanIdVitalBike" />
+        <activity android:name=".planIdVitalTravel" />
+        <activity android:name=".planIdVitalPet" />
+        <activity android:name=".planIdVitalWork" />
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".planIdVitalKids" />
+        <activity android:name=".perfilAdulto" />
+        <activity android:name=".perfilDeportista" />
+        <activity android:name=".perfilTerceraEdad" />
+        <activity android:name=".perfilNinos" />
+        <activity android:name=".perfilMascotas" />
+        <activity android:name=".perfilEmpresarial" />
+        <activity android:name=".tienda" />
+        <activity android:name=".creacionUsuario1"></activity>
+    </application>
+
+</manifest>
